@@ -21,7 +21,7 @@ public class GuardController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Guard>> getAllArticles() {
+    public ResponseEntity<List<Guard>> getAllGuards() {
         List<Guard> guards = guardRepository.findAll();
         if (guards.isEmpty()) {
             return ResponseEntity.noContent().build();
