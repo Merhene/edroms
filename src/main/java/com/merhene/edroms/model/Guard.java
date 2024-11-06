@@ -73,4 +73,10 @@ public class Guard {
     public void setUsers(List<User> users) {
         this.users = users;
     }
+
+    public void setUpdatedAt(LocalDateTime now) {
+    }
+
+    public void setCreatedAt(LocalDateTime now) {
+    }
 }
